@@ -1,2 +1,7 @@
 [30-May-2017 03:23:01 UTC] PHP Warning:  Creating default object from empty value in /home/xybqinyj/public_html/mail/index.php on line 32
 [30-May-2017 03:25:11 UTC] PHP Warning:  Creating default object from empty value in /home/xybqinyj/public_html/mail/index.php on line 32
+[30-May-2017 09:27:52 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/xybqinyj/public_html/mail/index.php on line 59
+[30-May-2017 09:34:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/xybqinyj/public_html/mail/index.php on line 59
+[30-May-2017 09:35:01 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/xybqinyj/public_html/mail/index.php on line 59
+[30-May-2017 09:43:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/xybqinyj/public_html/mail/index.php on line 59
+[30-May-2017 09:45:15 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/xybqinyj/public_html/mail/index.php on line 52
