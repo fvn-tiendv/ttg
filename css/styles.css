@@ -719,3 +719,76 @@ a:hover {
 #gnavi ul > li.sub > ul.submenu li a{
 	font-size: 15px;
 }
+#footer_contact{
+	padding: 20px 0;
+	background: #DD5B5B;
+}
+#footer_contact .footer_contact_left{
+	width: 50%;
+	float: left;
+	font-family: 'VNF-Futura', Arial, sans-serif;
+	padding-top: 60px;
+}
+#footer_contact .footer_contact_left p{
+	color: #fff;
+	font-family: 'VNF-Futura', Arial, sans-serif;
+}
+#footer_contact .footer_contact_right{
+	width: 50%;
+	float: right;
+}
+#email{
+width:100%;
+float: left;
+border-radius: 10px;
+font-family:raleway;
+padding: 0px 40px 0px;
+margin-top: 70px;
+margin: 0 auto;
+}
+ 
+input[type=text],input[type=email],input[type=password]{
+width:100%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 16px;
+font-family: 'VNF-Futura', Arial, sans-serif;
+box-sizing:border-box;
+} 
+
+textarea{
+width:100%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+margin-bottom: 5px;
+font-size: 16px;
+font-family: 'VNF-Futura', Arial, sans-serif;
+box-sizing: border-box;
+}
+
+input[type=submit]{
+width: 100%;
+background-color:#fff;
+color: #000;
+border: 2px solid #DD5B5B;
+padding: 10px;
+font-size:20px;
+cursor:pointer;
+border-radius: 5px;
+margin-bottom: 40px;
+}
+
+/*-----------------------------------------------------------------
+css settings for right side advertisement
+------------------------------------------------------------------*/
+#para{
+    clear: both;
+    margin: 0 35%;
+}
+.fct_txt01{
+	font-size: 20px;
+}
