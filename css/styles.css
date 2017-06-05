@@ -792,3 +792,35 @@ css settings for right side advertisement
 .fct_txt01{
 	font-size: 20px;
 }
+#index_news{
+	background: #ccc;
+	padding: 20px 0;
+}
+#index_newsct{
+	
+	
+}
+#index_newsct dl{
+	width: calc((100% - 60px)/3);
+	display: block;
+	overflow: hidden;
+	float: left;
+	font-family: 'VNF-Futura', Arial, sans-serif;
+	margin-right: 30px;
+	
+}
+#index_newsct dl:last-child{
+	margin-right: 0;
+}
+#index_newsct dl dt{
+	height: 300px;
+	width: 100%;
+	margin-bottom: 15px;
+	background: #fff;
+}
+#index_newsct dl dt img{
+	height: 100%;
+	max-width: 100%;
+	width: auto;
+	
+}

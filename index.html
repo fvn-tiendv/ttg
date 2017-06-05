@@ -33,7 +33,7 @@
 
 </script>
 	<!-- Google Analytics end -->
-	<script>
+	<script type="text/javascript">
 		//slider
 $(document).ready(function () {
     "use strict";
@@ -60,16 +60,16 @@ $(document).ready(function () {
           </div>
           <p id="nav-icon4" class="box_sp"><span></span> <span></span><span></span></p>
           <div id="gnavi_sp" class="box_sp">
-          	 <ul>
+            <ul>
               <li><a href="http://ttglancaster.vn/">TRANG CHỦ</a></li>
               <li><a href="gioithieu.html">giới thiệu</a></li>
               <li><a href="news/index.php">tin tức</a></li>
               <li class="sub"><span class="btn_sub">dự án</span>
-              	<ul class="sub_menu">
-              		<li><a href="lancasterlincoln.html">Lancaster Lincoln</a></li>
-					<li><a href="citadel.html">Citadel Residence</a></li>
-              		<li><a href="villa.html">E6 Villa</a></li>
-              	</ul>
+                <ul class="sub_menu">
+                  <li><a href="lancasterlincoln.html">Lancaster Lincoln</a></li>
+                  <li><a href="citadel.html">Citadel Residence</a></li>
+                <!--                  <li><a href="villa.html">E6 Villa</a></li>-->
+                </ul>
               </li>
               <li><a href="thanhtoan.html">thanh toán</a></li>
               <li><a href="lienhe.html">liên hệ</a></li>
@@ -82,12 +82,12 @@ $(document).ready(function () {
               <li><a href="http://ttglancaster.vn/"><img src="images/gnavi_home.png" width="22" alt="HOME"></a></li>
               <li><a href="gioithieu.html">giới thiệu</a></li>
               <li><a href="news/index.php">tin tức</a></li>
-             <li class="sub"><a href="#">dự án</a>
-              	<ul class="submenu">
-              		<li><a href="lancasterlincoln.html">Lancaster Lincoln</a></li>
-					<li><a href="citadel.html">Citadel Residence</a></li>
-              		<li><a href="villa.html">E6 Villa</a></li>
-              	</ul>
+              <li class="sub"><a href="#">dự án</a>
+                <ul class="submenu">
+                  <li><a href="lancasterlincoln.html">Lancaster Lincoln</a></li>
+                  <li><a href="citadel.html">Citadel Residence</a></li>
+                  <!--                  <li><a href="villa.html">E6 Villa</a></li>-->
+                </ul>
               </li>
               <li><a href="thanhtoan.html">thanh toán</a></li>
               <li><a href="lienhe.html">liên hệ</a></li>
@@ -99,19 +99,19 @@ $(document).ready(function () {
       <!-- main start -->
       <div id="main" class="clearfix">
         <div id="top_info">
-            <div id="slider">
-              <ul id="index_slider">
-                <li>
-                  <h2><img src="images/slider04.jpg" alt="Lancaster LinColn Citadel E6 Villas"></h2>
-                </li>
-                <li>
-                  <h2><img src="images/slider02.jpg" width="2000" alt="Lancaster LinColn Citadel E6 Villas"></h2>
-                </li>
-                <li>
-                  <h2><img src="images/slider03.jpg" width="2000" alt="Lancaster LinColn Citadel E6 Villas"></h2>
-                </li>
-              </ul>
-            </div>
+          <div id="slider">
+            <ul id="index_slider">
+              <li>
+                <h2><img src="images/slider04.jpg" alt="Lancaster LinColn Citadel E6 Villas"></h2>
+              </li>
+              <li>
+                <h2><img src="images/slider02.jpg" width="2000" alt="Lancaster LinColn Citadel E6 Villas"></h2>
+              </li>
+              <li>
+                <h2><img src="images/slider03.jpg" width="2000" alt="Lancaster LinColn Citadel E6 Villas"></h2>
+              </li>
+            </ul>
+          </div>
         </div>
         <!-- index_box01 -->
         <div id="index_box01">
@@ -202,6 +202,7 @@ $(document).ready(function () {
           </div>
         </div>
         <!-- index_box04 -->
+<!--
         <div id="index_box05">
           <div class="inner clearfix">
             <h3>Dự án Villa E6 Quận 2 – Biệt thự Lancaster Villa E6</h3>
@@ -225,7 +226,27 @@ $(document).ready(function () {
             </div>
           </div>
         </div>
+-->
         <!-- index_box05 -->
+        <script type="text/javascript">
+			!function($){
+				$.ajax({
+					'url' : 'news/_custom/',
+					'dataType' : 'jsonp',
+					'success' : function(json){
+						$.each(json.data, function(i,val){
+							var $li = $('<dl class="clearfix"><dt><span>'+val.img_01+'</span></dt><dd><a href="news/'+val.url+'">'+val.title +'</a></dd></dl>' );
+							$li.appendTo( '#index_newsct' );		
+						});
+					}
+				})
+			}(jQuery);
+</script>
+        <div id="index_news">
+        	<div class="inner clearfix">
+        		<div id="index_newsct"></div>
+        	</div>
+        </div>
         <div id="index_box06">
           <div id="gallery_img02">
             <ul>
@@ -259,52 +280,52 @@ $(document).ready(function () {
         <div id="footer_contact">
           <div class="inner clearfix">
             <div class="footer_contact_left">
-                <p class="center fct_txt01 mb10">ĐĂNG KÝ NGAY<br />
-Để nhận ưu đãi và chọn vị trí tốt nhất từ TTG</p>
-<p class="center fct_txt02 mb10">Hotline: 0909.1511.09</p>
-<p class="center fct_txt03 mb10">Website: http://ttglancaster.vn</p>
-<p class="center fct_txt04 mb10">Địa chỉ: 428 - 430 Nguyễn Tất Thành - Quận 04 - Hồ Chí Minh <br />
-TQ nhà mẫu: 21 Nguyễn Trung Ngạn, P. Bến Nghé, Q. 01, Hồ Chí Minh</p>
+              <p class="center fct_txt01 mb10">ĐĂNG KÝ NGAY<br />
+                Để nhận ưu đãi và chọn vị trí tốt nhất từ TTG</p>
+              <p class="center fct_txt02 mb10">Hotline: 0909.1511.09</p>
+              <p class="center fct_txt03 mb10">Website: http://ttglancaster.vn</p>
+              <p class="center fct_txt04 mb10">Địa chỉ: 428 - 430 Nguyễn Tất Thành - Quận 04 - Hồ Chí Minh <br />
+                TQ nhà mẫu: 21 Nguyễn Trung Ngạn, P. Bến Nghé, Q. 01, Hồ Chí Minh</p>
             </div>
             <div class="footer_contact_right">
               <div id="email">
                 <form action="mail/index.php" method="post">
-                    <input type="text" placeholder="Họ và tên" name="ten"/>
-                    <input type="text" placeholder="0909151109" name="sdt"/>
-                    <input type="text" placeholder="Email" name="email"/>  
-                    <input type="text" placeholder="Tiêu đề: " name="subject"/>
-                    <textarea rows="4" cols="50" placeholder="Nội dung..." name="message"></textarea>
-                    <input type="submit" value="Send" name="send"/>
-                </form>    
-            </div>
+                  <input type="text" placeholder="Họ và tên" name="ten"/>
+                  <input type="text" placeholder="0909151109" name="sdt"/>
+                  <input type="text" placeholder="Email" name="email"/>
+                  <input type="text" placeholder="Tiêu đề: " name="subject"/>
+                  <textarea rows="4" cols="50" placeholder="Nội dung..." name="message"></textarea>
+                  <input type="submit" value="Send" name="send"/>
+                </form>
+              </div>
             </div>
           </div>
         </div>
         <div id="footer_info">
           <div class="inner clearfix">
-          <div id="footer_infoct">
+            <div id="footer_infoct">
               <p id="logofooter" class="clearfix"><a href="http://ttglancaster.vn"><img src="images/logo-altf.svg" width="160" alt="ttglancaster"></a></p>
-              <p class="addressfooter clearfix">21 Nguyễn Trung Ngạn, Quận 1, TP. HCM <a href="https://www.google.com/maps/place/Miss+Ao+Dai+Shopping+Center-Fine+Art%26+Handicrafts/@10.7825218,106.7037072,18z/data=!4m8!1m2!3m1!2sMiss+Ao+Dai+Shopping+Center-Fine+Art%26+Handicrafts!3m4!1s0x0000000000000000:0xa1c963d101dfca56!8m2!3d10.7830942!4d106.7049007" target="_blank" rel="nofollow"><br class="box_sp mt10"><span class="googlemap">[ Googlemap &gt; ]</span></a></p>
+              <p class="addressfooter clearfix">21 Nguyễn Trung Ngạn, Quận 1, TP. HCM <a href="https://www.google.com/maps/place/Miss+Ao+Dai+Shopping+Center-Fine+Art%26+Handicrafts/@10.7825218,106.7037072,18z/data=!4m8!1m2!3m1!2sMiss+Ao+Dai+Shopping+Center-Fine+Art%26+Handicrafts!3m4!1s0x0000000000000000:0xa1c963d101dfca56!8m2!3d10.7830942!4d106.7049007" target="_blank" rel="nofollow"><br class="box_sp mt10">
+                <span class="googlemap">[ Googlemap &gt; ]</span></a></p>
               <p class="addressfooter"><a href="tel:0909151109">Hotline: 0909151109 Ms. Lê Nhiên</a></p>
               <p class="addressfooter"><a href="mailto:info.ttglancaster@gmail.com">Email: info.ttglancaster@gmail.com</a></p>
-            </div> 
-           <div id="footer_link">
+            </div>
+            <div id="footer_link">
               <ul>
-               <li>- <a href="lancasterlincoln.html">Lancaster LinColn</a></li>
-                <li>- <a href="villa.html">E6 Villa</a></li>
+                <li>- <a href="lancasterlincoln.html">Lancaster LinColn</a></li>
+               <!--                <li>- <a href="villa.html">E6 Villa</a></li>-->
                 <li>- <a href="citadel.html">Citadel</a></li>
                 <li>- <a href="thanhtoan.html">thanh toán</a></li>
                 <li>- <a href="lienhe.html">liên hệ</a></li>
               </ul>
               <ul>
-                <li>- <a href="villa.html">E6 Villa</a></li>
+                <!--                <li>- <a href="villa.html">E6 Villa</a></li>-->
                 <li>- <a href="citadel.html">Citadel</a></li>
                 <li>- <a href="lancasterlincoln.html">Lancaster LinColn</a></li>
                 <li>- <a href="thanhtoan.html">thanh toán</a></li>
                 <li>- <a href="lienhe.html">liên hệ</a></li>
               </ul>
             </div>
-            
           </div>
         </div>
         <address>

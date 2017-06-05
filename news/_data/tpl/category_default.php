@@ -66,7 +66,7 @@
             <ul class="sub_menu">
               <li><a href="../../lancasterlincoln.html">Lancaster Lincoln</a></li>
               <li><a href="../../citadel.html">Citadel Residence</a></li>
-              <li><a href="../../villa.html">E6 Villa</a></li>
+              <!--              <li><a href="../../villa.html">E6 Villa</a></li>-->
             </ul>
           </li>
           <li><a href="../../thanhtoan.html">thanh toán</a></li>
@@ -84,7 +84,7 @@
             <ul class="submenu">
               <li><a href="../../lancasterlincoln.html">Lancaster Lincoln</a></li>
               <li><a href="../../citadel.html">Citadel Residence</a></li>
-              <li><a href="../../villa.html">E6 Villa</a></li>
+              <!--              <li><a href="../../villa.html">E6 Villa</a></li>-->
             </ul>
           </li>
           <li><a href="../../thanhtoan.html">thanh toán</a></li>
@@ -301,13 +301,13 @@ $page=$page_old;
         <div id="footer_link">
           <ul>
             <li>- <a href="../../lancasterlincoln.html">Lancaster LinColn</a></li>
-            <li>- <a href="../../villa.html">E6 Villa</a></li>
+            <!-- <li>- <a href="../../villa.html">E6 Villa</a></li> -->
             <li>- <a href="../../citadel.html">Citadel</a></li>
             <li>- <a href="../../thanhtoan.html">thanh toán</a></li>
             <li>- <a href="../../lienhe.html">liên hệ</a></li>
           </ul>
           <ul>
-            <li>- <a href="../../villa.html">E6 Villa</a></li>
+            <!-- <li>- <a href="../../villa.html">E6 Villa</a></li> -->
             <li>- <a href="../../citadel.html">Citadel</a></li>
             <li>- <a href="../../lancasterlincoln.html">Lancaster LinColn</a></li>
             <li>- <a href="../../thanhtoan.html">thanh toán</a></li>

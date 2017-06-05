@@ -154,6 +154,16 @@ img {
 	width: 100%;
 	box-sizing: border-box;
 }
+	#index_newsct dl{
+		width: 100%;
+	}
+	#index_newsct dl dt img{
+		text-align: center;
+		width: 100%;
+	}
+	#index_newsct dl{
+		margin-bottom: 10px;
+	}
 }
 
 @media screen and (min-width: 100px) and (max-width: 800px) {
